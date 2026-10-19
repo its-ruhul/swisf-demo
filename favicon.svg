@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F9DE8F"/>
+      <stop offset="1" stop-color="#C98D2B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0A1230"/>
+  <g stroke="#C9A24A" stroke-width="2.6" stroke-linecap="round">
+    <line x1="15.8" y1="35.7" x2="10.1" y2="33.9"/><line x1="19.0" y1="30.1" x2="11.3" y2="23.6"/><line x1="24.0" y1="26.0" x2="21.2" y2="20.7"/><line x1="32.0" y1="24.0" x2="32.0" y2="14.0"/><line x1="40.0" y1="26.0" x2="42.8" y2="20.7"/><line x1="45.0" y1="30.1" x2="52.7" y2="23.6"/><line x1="48.2" y1="35.7" x2="53.9" y2="33.9"/>
+  </g>
+  <path d="M19 41a13 13 0 0 1 26 0z" fill="url(#sun)"/>
+  <line x1="9" y1="41" x2="55" y2="41" stroke="#C9A24A" stroke-width="2.4" stroke-linecap="round"/>
+  <rect x="28.4" y="37.4" width="7.2" height="7.2" fill="#E5455F" transform="rotate(45 32 41)"/>
+</svg>
