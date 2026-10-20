@@ -4,13 +4,16 @@ Options -MultiViews
 
 # Single-page app: send every unknown path to index.html so deep links
 # such as /team or /sponsors work when opened or refreshed directly.
+# Rules are relative (no RewriteBase), so this works in public_html/ or any sub-folder.
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /
   RewriteRule ^index\.html$ - [L]
+  # Relative asset URLs requested from a nested path (e.g. /foo/bar) -> the real assets/ folder
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^.+/assets/(.+)$ assets/$1 [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteRule ^ index.html [L]
 </IfModule>
 
 # Compression

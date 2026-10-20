@@ -1,6 +1,0 @@
-import{c as d,d as l}from"./index-D_d0exdY.js";import{j as s}from"./motion-CJW0RyPR.js";/**
- * @license lucide-react v0.460.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const p=d("Quote",[["path",{d:"M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",key:"rib7q0"}],["path",{d:"M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",key:"1ymkrd"}]]),o=50,r=48.5;function c(e){const t=e*Math.PI/180;return{x:o+r*Math.cos(t),y:o+r*Math.sin(t)}}function i(e,t){const n=c(e),a=c(t),x=(e-t+360)%360;return`M${n.x} ${n.y}A${r} ${r} 0 ${x>180?1:0} 0 ${a.x} ${a.y}`}function v({className:e,color:t="#E07B39"}){const n=c(-62),a=c(152);return s.jsxs("svg",{"aria-hidden":"true",focusable:"false",viewBox:"0 0 100 100",className:l("pointer-events-none overflow-visible",e),children:[s.jsxs("g",{fill:"none",stroke:t,strokeWidth:"0.45",strokeLinecap:"round",children:[s.jsx("path",{d:i(-62,152)}),s.jsx("path",{d:i(118,64)})]}),s.jsx("circle",{cx:n.x,cy:n.y,r:"1.3",fill:t}),s.jsx("circle",{cx:a.x,cy:a.y,r:"0.9",fill:"none",stroke:t,strokeWidth:"0.45"})]})}export{v as A,p as Q};
